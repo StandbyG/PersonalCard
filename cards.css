@@ -1,0 +1,50 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/2022-02/animes.jpg);
+    background-position: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+}
+.header__image-container{
+    display: flex;
+    max-width: 512px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header__image{
+    width: 100%;
+}
+.footer{
+    display: flex;
+}
+.footer-nav{
+    display: flex;
+}
+.footer-nav-container{
+    display: flex;
+}
+.footer-navlink-list{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.footer-navlink-item{
+    display: flex;
+}
+.footer-navlink{
+    display: flex;
+    width: 1.5rem;
+}
+.footer-navlink-image{
+    width: 100%;
+}
